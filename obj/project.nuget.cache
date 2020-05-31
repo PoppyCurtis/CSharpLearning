@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9p5BWSTyLhUzTqkki/X/rSrRcY1b+Um5oh1eM7V3cG5rbwZUY77EB9Xi7P59rM8hUcpZU76VLAy2OHmMY36+4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\csharp_learning.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\poppy\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
