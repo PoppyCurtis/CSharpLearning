@@ -39,6 +39,8 @@ namespace csharp_learning
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            //needed to customise error code pages
+            app.UseStatusCodePages("text/plain", "Status code page, status Code: {0}");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

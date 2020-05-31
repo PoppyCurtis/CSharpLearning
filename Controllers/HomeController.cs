@@ -36,6 +36,7 @@ namespace csharp_learning.Controllers
             };
             var json = JsonConvert.SerializeObject(user, Formatting.Indented);
             _logger.LogInformation(json);
+            throw new Exception("I'm not happy");
             return json;
         }
 
