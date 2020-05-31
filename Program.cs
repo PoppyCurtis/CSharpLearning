@@ -20,7 +20,14 @@ namespace csharp_learning
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<MyStartup>();
+                    //Adds logging
+                    webBuilder.UseStartup<Startup>()
+                    .ConfigureLogging(
+                        logging => {
+                            logging.ClearProviders();
+                            logging.AddConsole();
+                        }
+                    );
                 });
     }
 }

@@ -20521,11 +20521,6 @@
   "RootNamespace": "csharp_learning",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\poppy\\Documents\\dev\\csharp_learning\\Views\\Home\\Contact.cshtml",
-      "TargetPath": "Views\\Home\\Contact.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\poppy\\Documents\\dev\\csharp_learning\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

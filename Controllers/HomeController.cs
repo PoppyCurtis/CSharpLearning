@@ -8,37 +8,35 @@ using Microsoft.Extensions.Logging;
 using csharp_learning.Models;
 using Newtonsoft.Json;
 
+
 namespace csharp_learning.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
+        private readonly ILogger<HomeController> _logger;
 
         public IActionResult Index()
         {
             return View();
         }
 
-        public string Contact() 
+
+
+        public string Privacy()
         {
-            var user = new User {
+            var user = new User
+            {
                 Username = "todd",
                 Fullname = "Todd Spatafore",
                 Password = "secret password"
             };
             var json = JsonConvert.SerializeObject(user, Formatting.Indented);
+            _logger.LogInformation(json);
             return json;
-        }
-
-
-        public IActionResult Privacy()
-        {
-            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -36,4 +36,3 @@ C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.pd
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.genruntimeconfig.cache
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.csproj.CopyComplete
 C:\Users\poppy\Documents\dev\csharp_learning\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
