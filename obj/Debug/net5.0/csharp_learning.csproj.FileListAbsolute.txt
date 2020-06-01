@@ -9,6 +9,7 @@ C:\Users\poppy\Documents\dev\csharp_learning\bin\Debug\net5.0\csharp_learning.dl
 C:\Users\poppy\Documents\dev\csharp_learning\bin\Debug\net5.0\csharp_learning.pdb
 C:\Users\poppy\Documents\dev\csharp_learning\bin\Debug\net5.0\csharp_learning.Views.dll
 C:\Users\poppy\Documents\dev\csharp_learning\bin\Debug\net5.0\csharp_learning.Views.pdb
+C:\Users\poppy\Documents\dev\csharp_learning\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.csprojAssemblyReference.cache
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.AssemblyInfoInputs.cache
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.AssemblyInfo.cs
@@ -29,10 +30,9 @@ C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\Razor\Views\_ViewS
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.RazorTargetAssemblyInfo.cache
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.RazorTargetAssemblyInfo.cs
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.Views.pdb
+C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.csproj.CopyComplete
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\staticwebassets\csharp_learning.StaticWebAssets.Manifest.cache
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\staticwebassets\csharp_learning.StaticWebAssets.xml
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.dll
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.pdb
 C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.genruntimeconfig.cache
-C:\Users\poppy\Documents\dev\csharp_learning\obj\Debug\net5.0\csharp_learning.csproj.CopyComplete
-C:\Users\poppy\Documents\dev\csharp_learning\bin\Debug\net5.0\Newtonsoft.Json.dll

@@ -7,23 +7,36 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using csharp_learning.Models;
 using Newtonsoft.Json;
-
+using Microsoft.AspNetCore.Routing;
 
 namespace csharp_learning.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController(ILogger<HomeController> logger)
+        
+        private readonly ILogger<HomeController> _logger;
+        private readonly LinkGenerator _linkGenerator;
+
+        public HomeController(
+            ILogger<HomeController> logger,
+            LinkGenerator linkGenerator
+        )
         {
             _logger = logger;
+            _linkGenerator = linkGenerator;
         }
-        private readonly ILogger<HomeController> _logger;
 
         public IActionResult Index()
         {
             return View();
         }
 
+
+        public IActionResult Link() 
+        {
+            var link = _linkGenerator.GetPathByAction("Privacy", "Home");
+            return Content(link);
+        }
 
 
         public string Privacy()
@@ -36,7 +49,6 @@ namespace csharp_learning.Controllers
             };
             var json = JsonConvert.SerializeObject(user, Formatting.Indented);
             _logger.LogInformation(json);
-            throw new Exception("I'm not happy");
             return json;
         }
 

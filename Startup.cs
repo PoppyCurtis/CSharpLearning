@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
+
 
 namespace csharp_learning
 {
@@ -42,14 +45,22 @@ namespace csharp_learning
             //needed to customise error code pages
             app.UseStatusCodePages("text/plain", "Status code page, status Code: {0}");
             app.UseHttpsRedirection();
+            // Add new default file
+            var options = new DefaultFilesOptions();
+            options.DefaultFileNames.Clear();
+            options.DefaultFileNames.Add("mydefault.html");
+            app.UseDefaultFiles(options);
+
             app.UseStaticFiles();
+         
 
             app.UseRouting();
 
             app.UseAuthorization();
-
+            //Responsible for routing
+            //This type of routing is called conventional routing
             app.UseEndpoints(endpoints =>
-            {
+            {   
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
