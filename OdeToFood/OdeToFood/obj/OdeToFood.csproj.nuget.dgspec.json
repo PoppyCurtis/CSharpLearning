@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\poppy\\Documents\\dev\\OdeToFood\\OdeToFood.csproj": {}
+    "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {}
   },
   "projects": {
-    "C:\\Users\\poppy\\Documents\\dev\\OdeToFood\\OdeToFood.csproj": {
+    "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\poppy\\Documents\\dev\\OdeToFood\\OdeToFood.csproj",
+        "projectUniqueName": "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
         "projectName": "OdeToFood",
-        "projectPath": "C:\\Users\\poppy\\Documents\\dev\\OdeToFood\\OdeToFood.csproj",
+        "projectPath": "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
         "packagesPath": "C:\\Users\\poppy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\poppy\\Documents\\dev\\OdeToFood\\obj\\",
+        "outputPath": "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\OdeToFood\\OdeToFood\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
