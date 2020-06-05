@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "OdeToFood.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OdeToFood.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFood.Core.dll": {}
+        }
+      },
+      "OdeToFood.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "OdeToFood.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OdeToFood.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFood.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OdeToFood.Core/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFood.Core/OdeToFood.Core.csproj",
+      "msbuildProject": "../OdeToFood.Core/OdeToFood.Core.csproj"
+    },
+    "OdeToFood.Data/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFood.Data/OdeToFood.Data.csproj",
+      "msbuildProject": "../OdeToFood.Data/OdeToFood.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "OdeToFood.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\poppy\\.nuget\\packages\\": {},
@@ -36,7 +73,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+              "projectPath": "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

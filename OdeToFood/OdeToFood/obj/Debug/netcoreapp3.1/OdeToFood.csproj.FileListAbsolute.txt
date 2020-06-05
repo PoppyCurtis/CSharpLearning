@@ -74,3 +74,7 @@ C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netco
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.pdb
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.genruntimeconfig.cache
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.csproj.CopyComplete
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\OdeToFood.Core.dll
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\OdeToFood.Data.dll
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\OdeToFood.Data.pdb
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\OdeToFood.Core.pdb
