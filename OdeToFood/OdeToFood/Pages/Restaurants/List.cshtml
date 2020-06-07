@@ -29,6 +29,11 @@
                    asp-page="./Detail"
                    asp-route-restaurantId="@restaurant.Id">Details</a>
             </td>
+            <td>
+                <a class="btn btn-info"
+                   asp-page="./Edit"
+                   asp-route-restaurantId="@restaurant.Id">Edit</a>
+            </td>
         </tr>
     }
 </table>
