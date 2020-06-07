@@ -152,3 +152,4 @@ C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netco
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.csproj.CoreCompileInputs.cache
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\NotFound.cshtml.g.cs
