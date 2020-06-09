@@ -38,8 +38,9 @@ namespace OdeToFood.Pages.Restaurants
         {
             if (ModelState.IsValid)
             {
-            restaurantData.Update(Restaurant);
-            restaurantData.Commit();
+                restaurantData.Update(Restaurant);
+                restaurantData.Commit();
+                return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
             }
             Cuisines = htmlHelper.GetEnumSelectList<CuisineType>();
             
