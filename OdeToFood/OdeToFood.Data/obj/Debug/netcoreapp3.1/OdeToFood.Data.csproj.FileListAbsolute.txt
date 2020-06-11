@@ -9,3 +9,7 @@ C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood.Data\obj\Debug\
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CopyComplete
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.dll
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.pdb
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.runtimeconfig.json
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.runtimeconfig.dev.json
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.genruntimeconfig.cache

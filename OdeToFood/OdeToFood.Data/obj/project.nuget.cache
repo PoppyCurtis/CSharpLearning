@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6kUa4Jy9dkeXgHcC87D2BKrmX8SSIJr7BPgWXo4GLpGNmtaO1xBI+WSLtVafqavHEhSCOV6RxnCMpXYmRO2QCQ==",
+  "dgSpecHash": "GbLB3NulZLeDESmg8SHIhVzSP5QNYr2MIB+AJI7XM56s1sHQnO47vDFshs7hlKdpHypR3OV8benwQqNtftUdIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
   "expectedPackageFiles": [
@@ -90,7 +90,8 @@
     "C:\\Users\\poppy\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\poppy\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\poppy\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\poppy\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\poppy\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\poppy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }
