@@ -195,3 +195,4 @@ C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netco
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Delete.cshtml.g.cs
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs
