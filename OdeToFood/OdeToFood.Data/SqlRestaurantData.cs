@@ -43,6 +43,12 @@ namespace OdeToFood.Data
             throw new System.NotImplementedException();
         }
 
+        public int GetCountOfRestaurants()
+        {
+            return db.Restaurants.Count();
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<Restaurant> GetRestaurantsByName(string name)
         {
             var query = from r in db.Restaurants

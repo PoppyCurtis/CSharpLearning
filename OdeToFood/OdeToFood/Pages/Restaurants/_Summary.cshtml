@@ -11,20 +11,18 @@
         <span>Cuisine: @Model.Cuisine</span>
     </div>
     <div class="card">
-        <td>
+       
             <a class="btn btn-info"
                asp-page="./Detail"
                asp-route-restaurantId="@Model.Id">Details</a>
-        </td>
-        <td>
+       
             <a class="btn btn-info"
                asp-page="./Edit"
                asp-route-restaurantId="@Model.Id">Edit</a>
-        </td>
-        <td>
+
             <a class="btn btn-info"
                asp-page="./Delete"
                asp-route-restaurantId="@Model.Id">Delete</a>
-        </td>
+
     </div>
 </div>
