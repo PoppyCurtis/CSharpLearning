@@ -4,24 +4,40 @@
     ViewData["Title"] = "ClientRestaurants";
 }
 
-<h1>ClientRestaurants</h1>
+<h1>Client Restaurants</h1>
+<table class="table" id="restaurants">
+</table>
 
 @section Scripts {
     <environment include="Development">
-        <script src="C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\node_modules\datatables.net\js\jquery.dataTables.js"></script> 
+        <script src="C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\node_modules\datatables.net\js\jquery.dataTables.js"></script>
     </environment>
-    <environment exclude="Development">
+   
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css" />
 
         <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.js"></script>
-        <script>
-            $(function () {
-                $.ajax("/api/restaurants/", { method: "get" })
-                    .then(function (response) {
-                        console.dir(response);
-                    });
-            })
-        </script>
-    </environment>
+
+  
+    <script>
+        $(function () {
+            var cuisines = ["Unknown", "Mexican", "Italian", "Indian"];
+            $.ajax("/api/restaurants/", { method: "get" })
+                .then(function (response) {
+
+                    $("#restaurants").dataTable({
+                        data: response,
+                        columns: [
+                            { "data": "name" },
+                            { "data": "location" },
+                            {
+                                "data": "cuisine", "render": function (data) {
+                                    return cuisines[data];    }
+                            }
+                        ]
+                    })
+                });
+        })
+    </script>
+
 }
 
