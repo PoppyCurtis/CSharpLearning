@@ -49,12 +49,10 @@ namespace OdeToFood
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();  
-
-            app.UseAuthorization();
-
+            app.UseStaticFiles();
+            app.UseNodeModules();
             app.UseRouting();
-
+            app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();

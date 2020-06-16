@@ -215,11 +215,14 @@ C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netco
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.csproj.CoreCompileInputs.cache
-C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\R2\Create.cshtml.g.cs
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\R2\Delete.cshtml.g.cs
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\R2\Details.cshtml.g.cs
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\R2\Edit.cshtml.g.cs
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\R2\Index.cshtml.g.cs
 C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\ClientRestaurants.cshtml.g.cs
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\package.json
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\OdeToCode.UseNodeModules.dll
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.csproj.CoreCompileInputs.cache
+C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.MvcApplicationPartsAssemblyInfo.cache

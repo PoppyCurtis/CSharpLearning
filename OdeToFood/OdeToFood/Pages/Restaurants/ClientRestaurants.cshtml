@@ -7,16 +7,21 @@
 <h1>ClientRestaurants</h1>
 
 @section Scripts {
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css" />
+    <environment include="Development">
+        <script src="C:\Users\poppy\Documents\dev\csharp_learning\OdeToFood\OdeToFood\node_modules\datatables.net\js\jquery.dataTables.js"></script> 
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css" />
 
-    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.js"></script>
-    <script>
-        $(function () {
-            $.ajax("/api/restaurants/", { method: "get" })
-                .then(function (response) {
-                    console.dir(response);
-                });
-        })
-    </script>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.js"></script>
+        <script>
+            $(function () {
+                $.ajax("/api/restaurants/", { method: "get" })
+                    .then(function (response) {
+                        console.dir(response);
+                    });
+            })
+        </script>
+    </environment>
 }
 
