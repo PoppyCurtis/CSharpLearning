@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -39,25 +41,45 @@ namespace OdeToFood
         {
             if (env.IsDevelopment())
             {
+                //For errors in dev env
                 app.UseDeveloperExceptionPage();
             }
             else
             {
+                //Routes to error page in prod
                 app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                //Tells browser to only access under a secure connection
                 app.UseHsts();
             }
-
+            app.Use(SayHelloMiddleWare);
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseNodeModules();
             app.UseRouting();
+            
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
             });
+            
+        }
+
+        private RequestDelegate SayHelloMiddleWare(RequestDelegate next)
+        {
+            return async ctx =>
+            {
+                if (ctx.Request.Path.StartsWithSegments("/hello")) { 
+                    await ctx.Response.WriteAsync("Hello World!");
+                }
+               else
+                {
+                   await next(ctx);
+                }
+            };
+            throw new NotImplementedException();
         }
     }
 }
