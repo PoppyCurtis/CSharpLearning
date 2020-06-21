@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace Globomantics.Controllers
 {
     public class ConferenceController : Controller

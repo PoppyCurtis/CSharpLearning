@@ -1,0 +1,5 @@
+C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Globomantics.csprojAssemblyReference.cache
+C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Globomantics.csproj.CoreCompileInputs.cache
+C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Globomantics.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Globomantics.AssemblyInfoInputs.cache
+C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Globomantics.AssemblyInfo.cs
