@@ -31,7 +31,8 @@ namespace OdeToFood
             {
                 options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodDb"));
             });
-            services.AddScoped<IRestaurantData, SqlRestaurantData>();
+           // services.AddScoped<IRestaurantData, SqlRestaurantData>();
+            services.AddScoped<IRestaurantData, InMemoryRestaurantData>();
             services.AddRazorPages();
             services.AddControllers();
         }
