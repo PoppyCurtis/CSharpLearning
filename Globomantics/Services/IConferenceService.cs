@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Globomantics.Services
 {
-    interface IConferenceService
+    public interface IConferenceService
     {
     }
 }
