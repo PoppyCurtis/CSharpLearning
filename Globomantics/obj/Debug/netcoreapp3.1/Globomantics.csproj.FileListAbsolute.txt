@@ -38,3 +38,6 @@ C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.
 C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Globomantics.RazorTargetAssemblyInfo.cs
 C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Globomantics.Views.pdb
 C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Globomantics.csproj.CopyComplete
+C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Razor\Views\Conference\DisplayTemplates\ConferenceModel.cshtml.g.cs
+C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Razor\Views\Proposal\DisplayTemplates\ProposalModel.cshtml.g.cs
+C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Razor\Views\Proposal\Index.cshtml.g.cs

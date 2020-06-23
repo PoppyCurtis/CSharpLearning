@@ -1,0 +1,19 @@
+﻿@using Microsoft.Extensions.Options
+@using Globomantics
+@model Shared.Models.ProposalModel
+<tr>
+    <td>@Model.Title</td>
+    <td>@Model.Speaker</td>
+    <td>
+        @if (Model.Approved)
+        {
+            <div>Yes</div>
+        }
+    </td>
+    <td>
+        @if (!Model.Approved)
+        {
+            <a asp-action="Approve" asp-route-proposalId="@Model.Id">Approve</a>
+        }
+    </td>
+</tr>

@@ -1,5 +1,26 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@using Shared.Models
+@model IEnumerable<ConferenceModel>
+
+<div class="row">
+    <div class="col-md-10 offset-md-2">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Start of event</th>
+                <th>Attendees</th>
+                <th>Actions</th>
+            </tr>
+            @Html.DisplayForModel()
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2">
+        @*await Component.InvokeAsync("Statistics", new { statsCaption = "Statistics" })*@
+        @*<vc:statistics stats-caption="Caption"></vc:statistics>*@
+    </div>
+    <div class="col-md-4">
+        <a asp-action="Add">Add</a>
+    </div>
+</div>
