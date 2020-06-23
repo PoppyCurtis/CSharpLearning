@@ -1,0 +1,9 @@
+C:\Users\poppy\Documents\dev\csharp_learning\Shared\bin\Debug\netcoreapp3.1\Shared.deps.json
+C:\Users\poppy\Documents\dev\csharp_learning\Shared\bin\Debug\netcoreapp3.1\Shared.dll
+C:\Users\poppy\Documents\dev\csharp_learning\Shared\bin\Debug\netcoreapp3.1\Shared.pdb
+C:\Users\poppy\Documents\dev\csharp_learning\Shared\obj\Debug\netcoreapp3.1\Shared.csprojAssemblyReference.cache
+C:\Users\poppy\Documents\dev\csharp_learning\Shared\obj\Debug\netcoreapp3.1\Shared.csproj.CoreCompileInputs.cache
+C:\Users\poppy\Documents\dev\csharp_learning\Shared\obj\Debug\netcoreapp3.1\Shared.AssemblyInfoInputs.cache
+C:\Users\poppy\Documents\dev\csharp_learning\Shared\obj\Debug\netcoreapp3.1\Shared.AssemblyInfo.cs
+C:\Users\poppy\Documents\dev\csharp_learning\Shared\obj\Debug\netcoreapp3.1\Shared.dll
+C:\Users\poppy\Documents\dev\csharp_learning\Shared\obj\Debug\netcoreapp3.1\Shared.pdb

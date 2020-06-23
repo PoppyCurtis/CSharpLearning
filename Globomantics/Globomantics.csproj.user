@@ -6,5 +6,6 @@
   <PropertyGroup>
     <ActiveDebugProfile>Globomantics</ActiveDebugProfile>
     <ShowAllFiles>false</ShowAllFiles>
+    <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
   </PropertyGroup>
 </Project>
