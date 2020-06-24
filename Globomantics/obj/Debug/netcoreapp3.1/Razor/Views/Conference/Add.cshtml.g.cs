@@ -20,7 +20,7 @@ using Shared.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3bdc5eb80998a87a0aa65cad1452a3f5a17b6f61", @"/Views/Conference/Add.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b9830c66e455ed834f06ce7f2c5dd4fd24071409", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"05c9774746f001b84ec5ec275ea3473054c59013", @"/Views/_ViewImports.cshtml")]
     public class Views_Conference_Add : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ConferenceModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("form-control"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

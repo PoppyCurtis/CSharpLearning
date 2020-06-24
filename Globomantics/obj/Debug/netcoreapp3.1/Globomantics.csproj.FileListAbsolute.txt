@@ -43,3 +43,4 @@ C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.
 C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Razor\Views\Proposal\Index.cshtml.g.cs
 C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Razor\Views\Conference\Add.cshtml.g.cs
 C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Razor\Views\Proposal\Add.cshtml.g.cs
+C:\Users\poppy\Documents\dev\csharp_learning\Globomantics\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Statistics\Default.cshtml.g.cs

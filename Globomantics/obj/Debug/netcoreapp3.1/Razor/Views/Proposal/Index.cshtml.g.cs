@@ -20,7 +20,7 @@ using Shared.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"551eeaf95cf4c636943c1985ec9aedb7d475db71", @"/Views/Proposal/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b9830c66e455ed834f06ce7f2c5dd4fd24071409", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"05c9774746f001b84ec5ec275ea3473054c59013", @"/Views/_ViewImports.cshtml")]
     public class Views_Proposal_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<ProposalModel>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Add", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

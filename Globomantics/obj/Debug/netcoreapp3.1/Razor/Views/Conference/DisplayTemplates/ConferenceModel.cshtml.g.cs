@@ -27,7 +27,7 @@ using Globomantics;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"259e1682d2567b2b8e5b6e132ad16522e1b81767", @"/Views/Conference/DisplayTemplates/ConferenceModel.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b9830c66e455ed834f06ce7f2c5dd4fd24071409", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"05c9774746f001b84ec5ec275ea3473054c59013", @"/Views/_ViewImports.cshtml")]
     public class Views_Conference_DisplayTemplates_ConferenceModel : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Shared.Models.ConferenceModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Proposal", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
