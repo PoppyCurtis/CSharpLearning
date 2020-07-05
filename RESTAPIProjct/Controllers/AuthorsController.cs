@@ -26,6 +26,7 @@ namespace RESTAPIProjct.Controllers
                 throw new ArgumentNullException(nameof(mapper));
         }
         [HttpGet()]
+        [HttpHead]
         public ActionResult<IEnumerable<AuthorDto>> GetAuthors()
         {
             var authorsFromRepo = _courseLibraryRepository.GetAuthors();
