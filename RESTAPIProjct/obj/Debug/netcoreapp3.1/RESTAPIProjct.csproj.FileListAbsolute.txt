@@ -50,5 +50,3 @@ C:\Users\poppy\Documents\dev\csharp_learning\RESTAPIProjct\bin\Debug\netcoreapp3
 C:\Users\poppy\Documents\dev\csharp_learning\RESTAPIProjct\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\poppy\Documents\dev\csharp_learning\RESTAPIProjct\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\poppy\Documents\dev\csharp_learning\RESTAPIProjct\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\poppy\Documents\dev\csharp_learning\RESTAPIProjct\obj\Debug\netcoreapp3.1\RESTAPIProjct.csproj.CoreCompileInputs.cache
-C:\Users\poppy\Documents\dev\csharp_learning\RESTAPIProjct\obj\Debug\netcoreapp3.1\RESTAPIProjct.MvcApplicationPartsAssemblyInfo.cache

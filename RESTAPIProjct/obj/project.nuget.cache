@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tFldXi4wWdXelNXVWTvQJx8Ds/MFiHOCY/yV6rVw+e1jQ8Y+665qNryho0HzYORmiPN0xxllYzwf7+DLmm4sjg==",
+  "dgSpecHash": "4pri1rtyfNMZZ8SE+GmGAFOy3aEFd+qhNsiozLRzQQWw8vhrF1Gy+QzZ6kmqW7nctlxKIiha/SbkFSADuRhnbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\poppy\\Documents\\dev\\csharp_learning\\RESTAPIProjct\\RESTAPIProjct.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\poppy\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\poppy\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\poppy\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\poppy\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\poppy\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
