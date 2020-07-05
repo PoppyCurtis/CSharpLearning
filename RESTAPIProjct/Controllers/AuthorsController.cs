@@ -1,4 +1,5 @@
-﻿using CourseLibrary.API.Services;
+﻿using AutoMapper;
+using CourseLibrary.API.Services;
 using Microsoft.AspNetCore.Mvc;
 using RESTAPIProjct.Helpers;
 using RESTAPIProjct.Models;
@@ -14,29 +15,22 @@ namespace RESTAPIProjct.Controllers
     public class AuthorsController : ControllerBase
     {
         private readonly ICourseLibraryRepository _courseLibraryRepository;
+        private readonly IMapper _mapper;
 
-        public AuthorsController(ICourseLibraryRepository courseLibraryRepository)
+        public AuthorsController(ICourseLibraryRepository courseLibraryRepository, IMapper mapper)
         {
             _courseLibraryRepository = courseLibraryRepository ??
                 throw new ArgumentNullException(nameof(courseLibraryRepository));
+
+            _mapper = mapper ??
+                throw new ArgumentNullException(nameof(mapper));
         }
         [HttpGet()]
         public ActionResult<IEnumerable<AuthorDto>> GetAuthors()
         {
             var authorsFromRepo = _courseLibraryRepository.GetAuthors();
-            var authors = new List<AuthorDto>();
-            foreach (var author in authorsFromRepo)
-            {
-                authors.Add(new AuthorDto()
-                {
-                    Id = author.Id, 
-                    Name = $"{author.FirstName} {author.LastName}",
-                    MainCategory = author.MainCategory, 
-                    Age = author.DateOfBirth.GetCurrentAge()
-                });
-            }
 
-            return Ok(authorsFromRepo);
+            return Ok(_mapper.Map<IEnumerable<AuthorDto>>(authorsFromRepo));
         }
         //parameter changes so is put between curly braces
         //guid = route constraint to disambigouise between routes. Route will only match with input after authors can be matched to guid
@@ -49,7 +43,7 @@ namespace RESTAPIProjct.Controllers
             {
                 return NotFound();
             }
-            return Ok(authorFromRepo);
+            return Ok(_mapper.Map<AuthorDto>(authorFromRepo));
         }
     }
 }
