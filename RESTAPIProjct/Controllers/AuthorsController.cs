@@ -3,6 +3,7 @@ using CourseLibrary.API.Services;
 using Microsoft.AspNetCore.Mvc;
 using RESTAPIProjct.Helpers;
 using RESTAPIProjct.Models;
+using RESTAPIProjct.ResourceParameters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,9 +29,9 @@ namespace RESTAPIProjct.Controllers
         [HttpGet()]
         [HttpHead]
         public ActionResult<IEnumerable<AuthorDto>> GetAuthors(
-          string mainCategory)
+          [FromQuery] AuthorsResourceParameters authorsResourceParameters)
         {
-            var authorsFromRepo = _courseLibraryRepository.GetAuthors(mainCategory);
+            var authorsFromRepo = _courseLibraryRepository.GetAuthors(authorsResourceParameters);
 
             return Ok(_mapper.Map<IEnumerable<AuthorDto>>(authorsFromRepo));
         }
