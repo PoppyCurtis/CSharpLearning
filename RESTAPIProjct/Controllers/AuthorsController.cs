@@ -37,7 +37,7 @@ namespace RESTAPIProjct.Controllers
         }
         //parameter changes so is put between curly braces
         //guid = route constraint to disambigouise between routes. Route will only match with input after authors can be matched to guid
-        [HttpGet("{authorId}")]
+        [HttpGet("{authorId}", Name ="GetAuthor")]
         public IActionResult GetAuthor(Guid authorId)
         { 
             var authorFromRepo = _courseLibraryRepository.GetAuthor(authorId);
@@ -47,6 +47,18 @@ namespace RESTAPIProjct.Controllers
                 return NotFound();
             }
             return Ok(_mapper.Map<AuthorDto>(authorFromRepo));
+        }
+        [HttpPost]
+        public ActionResult<AuthorDto> CreateAuthor(AuthorForCreationDto author)
+        {
+            var authorEntity = _mapper.Map<CourseLibrary.API.Entities.Author>(author);
+            _courseLibraryRepository.AddAuthor(authorEntity);
+            _courseLibraryRepository.Save();
+
+            var authorToReturn = _mapper.Map<AuthorDto>(authorEntity);
+            return CreatedAtRoute("GetAuthor",
+                new { authorId = authorToReturn.Id },
+                authorToReturn);
         }
     }
 }

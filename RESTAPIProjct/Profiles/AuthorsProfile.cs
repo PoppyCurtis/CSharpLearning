@@ -18,6 +18,9 @@ namespace RESTAPIProjct.Profiles
                 .ForMember(
                     dest => dest.Age,
                     opt => opt.MapFrom(src => src.DateOfBirth.GetCurrentAge()));
+
+            CreateMap<Models.AuthorForCreationDto, CourseLibrary.API.Entities.Author>();
+                
         }
     }
 }
