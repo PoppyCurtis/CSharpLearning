@@ -1,10 +1,13 @@
 ﻿using AutoMapper;
 using CourseLibrary.API.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using RESTAPIProjct.Helpers;
 using RESTAPIProjct.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
 namespace RESTAPIProjct.Controllers
@@ -25,6 +28,25 @@ namespace RESTAPIProjct.Controllers
                 throw new ArgumentNullException(nameof(mapper));
         }
 
+        [HttpGet("({ids})", Name ="GetAuthorCollection")]
+        public IActionResult GetAuthorCollection(
+            [FromRoute] 
+            [ModelBinder(BinderType = typeof(ArrayModelBinder))] IEnumerable<Guid> ids)
+        {
+            if (ids == null)
+            {
+                return BadRequest();
+            }
+            var authorEntities = _courseLibraryRepository.GetAuthors(ids);
+            if (ids.Count() != authorEntities.Count())
+            {
+                return NotFound();
+            }
+            var authorsToReturn = _mapper.Map<IEnumerable<AuthorDto>>(authorEntities);
+
+            return Ok();
+        }
+
         [HttpPost]
         public ActionResult<IEnumerable<AuthorDto>> CreateAuthorCollection(
             IEnumerable<AuthorForCreationDto> authorCollection)
@@ -35,7 +57,11 @@ namespace RESTAPIProjct.Controllers
                 _courseLibraryRepository.AddAuthor(author);
             }
             _courseLibraryRepository.Save();
-            return Ok();
+            var authorCollectionToReturn = _mapper.Map<IEnumerable<AuthorDto>>(authorEntities);
+            var idsAsString = string.Join(",", authorCollectionToReturn.Select(a => a.Id));
+            return CreatedAtRoute("GetAuthorCollection", 
+                new { ids = idsAsString},
+                authorCollectionToReturn);
         }
     }
 }
