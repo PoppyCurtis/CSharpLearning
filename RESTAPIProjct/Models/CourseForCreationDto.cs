@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace RESTAPIProjct.Models
 {
-    [CourseTitleMustBeDifferentFromDescription]
+    [CourseTitleMustBeDifferentFromDescription(ErrorMessage = "Title should be different from description")]
     public class CourseForCreationDto //: IValidatableObject
     {
-        [Required]
-        [MaxLength(100)]
+        [Required(ErrorMessage = "You should fill out a title.")]
+        [MaxLength(100, ErrorMessage = "The description shouldn't have more than 1500 characters")]
         public string Title { get; set; }
         [MaxLength(1500)]
         public string Description { get; set; }
