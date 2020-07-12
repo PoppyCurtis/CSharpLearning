@@ -1,13 +1,16 @@
-﻿using System;
+﻿using RESTAPIProjct.ValidationAttributes;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace RESTAPIProjct.Models
 {
-    public class CourseForUpdateDto
+   
+    public class CourseForUpdateDto : CourseForManipulationDto
     {
-        public string Title { get; set; }
-        public string Description { get; set; }
+      [Required(ErrorMessage = "You should fill out a description")]
+      public override string Description { get => base.Description; set => base.Description = value; }
     }
 }
