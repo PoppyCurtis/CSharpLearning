@@ -9,6 +9,6 @@ namespace RESTAPIProjct.Models
 {
     public class CourseForCreationDto : CourseForManipulationDto
     {
-        public override string Description { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
     }
 }
