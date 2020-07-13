@@ -3,6 +3,10 @@ using CourseLibrary.API.Entities;
 using CourseLibrary.API.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using RESTAPIProjct.Models;
 using System;
 using System.Collections.Generic;
@@ -108,7 +112,7 @@ namespace RESTAPIProjct.Controllers
                 return NotFound();
             }
             var courseToPatch = _mapper.Map<CourseForUpdateDto>(courseForAuthorFromRepo);
-            patchDocument.ApplyTo(courseToPatch);
+            patchDocument.ApplyTo(courseToPatch, ModelState);
             
             if (TryValidateModel(courseToPatch))
             {
@@ -118,6 +122,13 @@ namespace RESTAPIProjct.Controllers
             _courseLibraryRepository.UpdateCourse(courseForAuthorFromRepo);
             _courseLibraryRepository.Save();
             return NoContent();
+        }
+        public override ActionResult ValidationProblem(
+            [ActionResultObjectValue] ModelStateDictionary modelStateDictionary)
+        {
+            var options = HttpContext.RequestServices.GetRequiredService<IOptions<ApiBehaviorOptions>>();
+
+            return (ActionResult)options.Value.InvalidModelStateResponseFactory(ControllerContext);
         }
     }
 }
